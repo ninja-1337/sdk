@@ -9,9 +9,8 @@
   "module": "dist/core-sdk.esm.js",
 
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
+    "registry":"https://npm.pkg.github.com"
+},
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
