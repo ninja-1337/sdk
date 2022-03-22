@@ -7,10 +7,7 @@
     "dist"
   ],
   "module": "dist/core-sdk.esm.js",
-  "repository": {
-    "url": "ninja-1337/sdk",
-    "directory": "packages/core-sdk"
-  },
+
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
