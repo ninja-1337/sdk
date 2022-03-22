@@ -1,7 +1,6 @@
 {
   "name": "@souvlaswap/core-sdk",
   "version": "1.0.7",
-  "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -9,7 +8,7 @@
   ],
   "module": "dist/core-sdk.esm.js",
   "repository": {
-    "url": "ninja-1337/sdk",
+    "url": "github.com/ninja-1337/sdk",
     "directory": "packages/core-sdk"
   },
   "publishConfig": {
