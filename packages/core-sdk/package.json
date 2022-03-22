@@ -9,7 +9,7 @@
   ],
   "module": "dist/core-sdk.esm.js",
   "repository": {
-    "url": "souvlaswap/sdk",
+    "url": "sdk/sdk",
     "directory": "packages/core-sdk"
   },
   "publishConfig": {
