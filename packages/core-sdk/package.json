@@ -8,7 +8,7 @@
   ],
   "module": "dist/core-sdk.esm.js",
   "repository": {
-    "url": "github.com/ninja-1337/sdk",
+    "url": "ninja-1337/sdk",
     "directory": "packages/core-sdk"
   },
   "publishConfig": {
