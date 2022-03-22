@@ -1,6 +1,6 @@
 {
   "name": "@souvlaswap/core-sdk",
-  "version": "1.0.8.7",
+  "version": "1.0.7",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
