@@ -1,5 +1,5 @@
 {
-  "name": "gtgsdk",
+  "name": "souvlaswap-core-sdk",
   "workspaces": [
     "packages/*"
   ],
