@@ -1,5 +1,5 @@
 {
-  "name": "souvlaswap-core-sdkl",
+  "name": "souvlaswap-core-sdk",
   "version": "2.2.8",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
