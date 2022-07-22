@@ -7,7 +7,6 @@
     "dist"
   ],
   "module": "dist/core-sdk.esm.js",
-
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

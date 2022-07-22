@@ -3120,24 +3120,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sushiswap/core-sdk@1.0.0-canary.77, @sushiswap/core-sdk@workspace:packages/core-sdk":
-  version: 0.0.0-use.local
-  resolution: "@sushiswap/core-sdk@workspace:packages/core-sdk"
+"@sushiswap/core-sdk@npm:1.0.0-canary.77":
+  version: 1.0.0-canary.77
+  resolution: "@sushiswap/core-sdk@npm:1.0.0-canary.77"
   dependencies:
     "@ethersproject/address": ^5.4.0
     "@ethersproject/bignumber": ^5.4.0
     "@ethersproject/providers": ^5.4.0
     "@ethersproject/solidity": ^5.4.0
-    "@types/big.js": ^6.1.0
     big.js: ^6.1.1
     decimal.js-light: ^2.5.0
     jsbi: ^4.1.0
     tiny-invariant: ^1.1.0
     tiny-warning: ^1.0.0
     toformat: ^2.0.0
-    tsdx: ^0.14.1
-  languageName: unknown
-  linkType: soft
+  checksum: 8faccf99d235e42711a3d879e189093f2eb1a40947fffb7df9b15feb4f4c55c756e7ec5aacf6482ee395146bca6bf617ad623548b8c5a73944e05316ea36fa47
+  languageName: node
+  linkType: hard
 
 "@sushiswap/kashi-sdk@workspace:packages/kashi-sdk":
   version: 0.0.0-use.local
@@ -3164,14 +3163,6 @@ __metadata:
     "@sushiswap/core-sdk": 1.0.0-canary.77
     eip-712: ^0.4.0
     isomorphic-unfetch: ^3.0.0
-    tsdx: ^0.14.1
-  languageName: unknown
-  linkType: soft
-
-"@sushiswap/miso-sdk@workspace:packages/miso-sdk":
-  version: 0.0.0-use.local
-  resolution: "@sushiswap/miso-sdk@workspace:packages/miso-sdk"
-  dependencies:
     tsdx: ^0.14.1
   languageName: unknown
   linkType: soft
@@ -10937,17 +10928,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sdk@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "sdk@workspace:."
-  dependencies:
-    "@sushiswap/prettier-config": ^0.1.0
-    "@types/node": ^16.9.1
-    lerna: ^4.0.0
-    prettier: ^2.4.0
-  languageName: unknown
-  linkType: soft
-
 "seedrandom@npm:^3.0.5":
   version: 3.0.5
   resolution: "seedrandom@npm:3.0.5"
@@ -11292,6 +11272,44 @@ __metadata:
   checksum: b57981c05611afef31605732b598ccf65124a9fcb03b833532659ac4d29ac0f7bfacbc0d6c5a28a03e84c7510e7e556d758d0bb57786e214660016fb94279316
   languageName: node
   linkType: hard
+
+"souvlaswap-core-sdk@workspace:packages/core-sdk":
+  version: 0.0.0-use.local
+  resolution: "souvlaswap-core-sdk@workspace:packages/core-sdk"
+  dependencies:
+    "@ethersproject/address": ^5.4.0
+    "@ethersproject/bignumber": ^5.4.0
+    "@ethersproject/providers": ^5.4.0
+    "@ethersproject/solidity": ^5.4.0
+    "@types/big.js": ^6.1.0
+    big.js: ^6.1.1
+    decimal.js-light: ^2.5.0
+    jsbi: ^4.1.0
+    tiny-invariant: ^1.1.0
+    tiny-warning: ^1.0.0
+    toformat: ^2.0.0
+    tsdx: ^0.14.1
+  languageName: unknown
+  linkType: soft
+
+"souvlaswap-miso-sdk@workspace:packages/miso-sdk":
+  version: 0.0.0-use.local
+  resolution: "souvlaswap-miso-sdk@workspace:packages/miso-sdk"
+  dependencies:
+    tsdx: ^0.14.1
+  languageName: unknown
+  linkType: soft
+
+"souvlaswap-sdk-mono@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "souvlaswap-sdk-mono@workspace:."
+  dependencies:
+    "@sushiswap/prettier-config": ^0.1.0
+    "@types/node": ^16.9.1
+    lerna: ^4.0.0
+    prettier: ^2.4.0
+  languageName: unknown
+  linkType: soft
 
 "spdx-correct@npm:^3.0.0":
   version: 3.1.1

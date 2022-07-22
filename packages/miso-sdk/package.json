@@ -1,6 +1,6 @@
 {
-  "name": "@sushiswap/miso-sdk",
-  "version": "1.0.0-canary.52",
+  "name": "souvlaswap-miso-sdk",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -8,13 +8,10 @@
     "dist"
   ],
   "module": "dist/miso-sdk.esm.js",
-  "repository": {
-    "url": "sushiswap/sdk",
-    "directory": "packages/miso-sdk"
-  },
+
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "access": "public"
+
   },
   "scripts": {
     "lint": "tsdx lint src test",
@@ -25,6 +22,5 @@
   },
   "devDependencies": {
     "tsdx": "^0.14.1"
-  },
-  "gitHead": "c731e6738417b0aaeb4d3b1bcc4521e88c9bc090"
+  }
 }
